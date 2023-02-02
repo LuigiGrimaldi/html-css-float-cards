@@ -4,7 +4,14 @@
     box-sizing: border-box;
 }
 
+#site-header{
+    text-align: center;
+    margin: 30px; 
+}
 
+#site-main{
+    margin: 5% 10%;
+}
 
 
 /* DEBUG */
