@@ -4,15 +4,51 @@
     box-sizing: border-box;
 }
 
+
+
 #site-header{
-    text-align: center;
-    margin: 30px; 
+    text-align: center;4
+    padding: 1.23rem;
+    margin-bottom: 2rem; 
+    color: #e53170;
 }
 
 #site-main{
     margin: 5% 10%;
 }
 
+/* UTILITIES */
+.container{
+    max-width: 1170px;
+}
+
+.colums .col{
+    float: left;
+    width: calc(100% / 4);
+    margin: 10px; 
+    background-color: #0f0e17;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.colums .col img{
+    width:70px;
+    height:70px;
+    margin: 0;
+}
+
+#site-main p{
+    padding: 2rem;
+}
+
+.colums{
+    width: 1000px;
+    padding: 2rem;
+}
 
 /* DEBUG */
 
