@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+h2{
+    display: inline-block;
+}
 
 #site-header{
     text-align: center;4
@@ -27,6 +29,7 @@
     width: calc(100% / 4);
     margin: 10px; 
     background-color: #0f0e17;
+    color: white;
 }
 
 .clearfix::after{
@@ -36,7 +39,6 @@
 }
 
 .colums .col img{
-    width:70px;
     height:70px;
     margin: 0;
 }
